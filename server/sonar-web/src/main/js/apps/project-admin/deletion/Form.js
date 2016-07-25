@@ -18,8 +18,8 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 import React from 'react';
-import { translate, translateWithParameters } from '../../../../helpers/l10n';
-import { deleteProject } from '../../../../api/components';
+import { translate, translateWithParameters } from '../../../helpers/l10n';
+import { deleteProject } from '../../../api/components';
 
 export default class Form extends React.Component {
   static propTypes = {
